@@ -1,0 +1,66 @@
+h1, h2, h3, h4, h5, h6, ul, a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+header {
+  text-align: center;
+  height: 100vh;
+  background:
+  linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/hero-hrt-460.jpg");
+  // background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 100px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 36px;
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  header {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+      ),
+    url("../images/hero-hrt-1024.jpg");
+  }
+}
+
+@media (min-width: 1200) {
+  header {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+      ),
+    url("../images/hero-hrt-2000.jpg");
+  }
+}
